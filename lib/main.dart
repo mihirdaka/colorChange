@@ -35,7 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Colors.green,
     Colors.blue,
     Colors.pink,
-    Colors.black,
+    Colors.amber,
   ];
 
   void _incrementCounter() {
@@ -62,7 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            RaisedButton(
+            ElevatedButton(
               onPressed: _incrementCounter,
               child: Text('Tap to change color'),
             )
