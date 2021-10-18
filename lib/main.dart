@@ -62,9 +62,12 @@ class _MyHomePageState extends State<MyHomePage> {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            ElevatedButton(
-              onPressed: _incrementCounter,
-              child: Text('Tap to change color'),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 80),
+              child: ElevatedButton(
+                onPressed: _incrementCounter,
+                child: Text('Tap to change color'),
+              ),
             )
           ],
         ),
